@@ -1,7 +1,7 @@
 # Via Oberta – Padró Municipal d’Habitants
 Document d’integració del servei.
 
-Podreu trobar els XSD's del servei en aquest repositori sota el directori ```/schema```.
+Podreu trobar els XSD's del servei en aquest repositori sota el directori [/schema](https://github.com/ConsorciAOC/PADRO/tree/main/schema).
 
 ## Control del document
 
