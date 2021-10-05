@@ -61,20 +61,20 @@ Les dades disponibles a través del servei són les que es presenten a continuac
 
 | **PRODUCTE** | **MODALITAT** | **DESCRIPCIO** |
 | --- | --- | --- |
-| **PADRO** | RESIDENT | Residència d'un individu a Catalunya.|
-| **PADRO** | MUNICIPI\_RESIDENCIA | Municipi de residència d'un individu. |
-| **PADRO** | RESIDENT\_MUNICIPI | Residència d'un individu a un determinat municipi.|
-| **PADRO** | NUMERO\_CONVIVENTS | Número de convivents d'un individu.|
-| **PADRO** | COMPROVACIO\_CONVIVENTS | Comprovació del número de convivents.|
-| **PADRO** | TITULAR | Dades del titular.|
-| **PADRO** | CONVIVENTS | Dades dels convivents.|
-| **PADRO** | VALIDACIO\_CONVIVENTS | Validació dels convivents.|
-| **PADRO** | TITULAR\_PDF | Dades del titular (PDF).|
-| **PADRO** | CONVIVENTS\_PDF | Dades dels convivents (PDF).|
-| **PADRO** | TITULAR\_IDESCAT | Dades del titular (consulta alternativa a l'IDESCAT).|
-| **PADRO** | TITULAR\_PROPI | Dades del titular (consulta al padró de l'ens requeridor). Únicament disponible per a Administracions Locals.|
-| **PADRO** | CONVIVENTS\_PROPI | Dades dels convivents (consulta al padró de l'ens requeridor). Únicament disponible per a Administracions Locals.|
-| **PADRO** | CERCA\_TITULAR | Cerca del titular.|
+| **PADRO** | [RESIDENT](#3.1) | Residència d'un individu a Catalunya.|
+| **PADRO** | [MUNICIPI\_RESIDENCIA](#3.2) | Municipi de residència d'un individu. |
+| **PADRO** | [RESIDENT\_MUNICIPI](#3.3) | Residència d'un individu a un determinat municipi.|
+| **PADRO** | [NUMERO\_CONVIVENTS](#3.4) | Número de convivents d'un individu.|
+| **PADRO** | [COMPROVACIO\_CONVIVENTS](#3.5) | Comprovació del número de convivents.|
+| **PADRO** | [TITULAR](#3.6) | Dades del titular.|
+| **PADRO** | [CONVIVENTS](#3.7) | Dades dels convivents.|
+| **PADRO** | [VALIDACIO\_CONVIVENTS](#3.8) | Validació dels convivents.|
+| **PADRO** | [TITULAR\_PDF](#3.9) | Dades del titular (PDF).|
+| **PADRO** | [CONVIVENTS\_PDF](#3.10) | Dades dels convivents (PDF).|
+| **PADRO** | [TITULAR\_IDESCAT](#3.11) | Dades del titular (consulta alternativa a l'IDESCAT).|
+| **PADRO** | [TITULAR\_PROPI](#3.6) | Dades del titular (consulta al padró de l'ens requeridor). Únicament disponible per a Administracions Locals.|
+| **PADRO** | [CONVIVENTS\_PROPI](#3.7) | Dades dels convivents (consulta al padró de l'ens requeridor). Únicament disponible per a Administracions Locals.|
+| **PADRO** | [CERCA\_TITULAR](#3.12) | Cerca del titular.|
 
 ## 3 Missatgeria dels serveis <a name="3"></a>
 
@@ -82,7 +82,9 @@ A continuació es detalla la missatgeria corresponent al bloc de dades específi
 
 ### 3.1 Residència d'un individu a Catalunya (RESIDENT) <a name="3.1"></a>
 
-TO_ADD_IMG![](.jpg)
+<p align="center">
+<img align="center" src="img/RESIDENT.png" />
+</p>  
 
 | _Element_ | _Descripció_ |
 | --- | --- |
@@ -96,7 +98,9 @@ TO_ADD_IMG![](.jpg)
 
 ### 3.2 Municipi de residència d'un individu (MUNICIPI\_RESIDENCIA) <a name="3.2"></a>
 
-TO_ADD_IMG![](.jpg)
+<p align="center">
+<img align="center" src="img/MUNICIPI_RESIDENCIA.png" />
+</p>  
 
 | _Element_ | _Descripció_ |
 | --- | --- |
@@ -112,7 +116,10 @@ TO_ADD_IMG![](.jpg)
 
 ### 3.3 Residència d'un individu a un determinat municipi (RESIDENT\_MUNICIPI) <a name="3.3"></a>
 
-TO_ADD_IMG![](.jpg)
+<p align="center">
+<img align="center" src="img/RESIDENT_MUNICIPI.png" />
+</p>  
+
 
 | _Element_ | _Descripció_ |
 | --- | --- |
@@ -133,7 +140,9 @@ TO_ADD_IMG![](.jpg)
 
 ### 3.4 Número de convivents d'un individu (NUMERO\_CONVIVENTS) <a name="3.4"></a>
 
-TO_ADD_IMG![](.jpg)
+<p align="center">
+<img align="center" src="img/NUMERO_CONVIVENTS.png" />
+</p>  
 
 | _Element_ | _Descripció_ |
 | --- | --- |
@@ -156,7 +165,9 @@ TO_ADD_IMG![](.jpg)
 
 ### 3.5 Comprovació del número de convivents (COMPROVACIO\_CONVIVENTS) <a name="3.5"></a>
 
-TO_ADD_IMG![](.jpg)
+<p align="center">
+<img align="center" src="img/COMPROVACIO_CONVIVENTS.png" />
+</p>  
 
 | _Element_ | _Descripció_ |
 | --- | --- |
@@ -180,7 +191,9 @@ TO_ADD_IMG![](.jpg)
 
 ### 3.6 Dades del titular (TITULAR i TITULAR\_PROPI) <a name="3.6"></a>
 
-TO_ADD_IMG![](.jpg)
+<p align="center">
+<img align="center" src="img/TITULAR i TITULAR_PROPI.png" />
+</p>  
 
 > :warning: En el cas de la modalitat **TITULAR\_PROPI** el codi de municipi i el codi de provincia no s'informen a la petició i la consulta es realitza automàticament contra el padró de l'ens – Administració Local - que realitza la consulta.
 
@@ -205,7 +218,9 @@ TO_ADD_IMG![](.jpg)
 
 ### 3.7 Dades dels convivents (CONVIVENTS i CONVIVENTS\_PROPI) <a name="3.7"></a>
 
-TO_ADD_IMG![](.jpg)
+<p align="center">
+<img align="center" src="img/CONVIVENTS i CONVIVENTS_PROPI.png" />
+</p>  
 
 > :warning: En el cas de la modalitat **CONVIVENTS\_PROPI** el codi de municipi i el codi de provincia no s'informen a la petició i la consulta es realitza automàticament contra el padró de l'ens –Administració Local- que realitza la consulta.
 
@@ -229,7 +244,9 @@ TO_ADD_IMG![](.jpg)
 
 ### 3.8 Validació dels convivents (VALIDACIO\_CONVIVENTS) <a name="3.8"></a>
 
-TO_ADD_IMG![](.jpg)
+<p align="center">
+<img align="center" src="img/VALIDACIO_CONVIVENTS.png" />
+</p>  
 
 | _Element_ | _Descripció_ |
 | --- | --- |
@@ -253,7 +270,9 @@ TO_ADD_IMG![](.jpg)
 
 ### 3.9 Dades del titular PDF (TITULAR\_PDF) <a name="3.9"></a>
 
-TO_ADD_IMG![](.jpg)
+<p align="center">
+<img align="center" src="img/TITULAR_PDF.png" />
+</p>  
 
 | _Element_ | _Descripció_ |
 | --- | --- |
@@ -276,7 +295,9 @@ TO_ADD_IMG![](.jpg)
 
 ### 3.10 Dades dels convivents PDF (CONVIVENTS\_PDF) <a name="3.10"></a>
 
-TO_ADD_IMG![](.jpg)
+<p align="center">
+<img align="center" src="img/CONVIVENTS_PDF.png" />
+</p>  
 
 | _Element_ | _Descripció_ |
 | --- | --- |
@@ -299,7 +320,9 @@ TO_ADD_IMG![](.jpg)
 
 ### 3.11 Dades del titular IDESCAT (TITULAR\_IDESCAT) <a name="3.11"></a>
 
-TO_ADD_IMG![](.jpg)
+<p align="center">
+<img align="center" src="img/TITULAR_IDESCAT.png" />
+</p>  
 
 | _Element_ | _Descripció_ |
 | --- | --- |
@@ -322,7 +345,9 @@ Si no s'informa el codi de municipi i de província en la petició, la consulta 
 
 ### 3.12 Cerca del titular (CERCA\_TITULAR) <a name="3.12"></a>
 
-TO_ADD_IMG![](.jpg)
+<p align="center">
+<img align="center" src="img/CERCA_TITULAR.png" />
+</p>  
 
 | _Element_ | _Descripció_ |
 | --- | --- |
