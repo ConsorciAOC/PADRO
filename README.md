@@ -27,6 +27,7 @@ Podreu trobar els XSD's del servei en aquest repositori sota el directori [/sche
 | V1.5 | 15/07/2011 | Roger Noguera i Arnau | Nou codi de retorn per consultes contra municipis no adherits. |
 | V1.6 | 05/02/2013 | Roger Noguera i Arnau | Incorpora TITULAR\_PROPI i CONVIVENTS\_PROPI. |
 | V2.0 | 16/03/2015 | Roger Noguera i Arnau | Extinció de TITULAR\_INE. |
+| V2.1 | 22/11/2022 | Suport Tècnic AOC | Afegir casos de prova per l'entorn de PRE. |
 
 ### Índex
 
@@ -374,7 +375,15 @@ Si no s'informa el codi de municipi i de província en la petició, la consulta 
 
 ## 4 Joc de proves <a name="4"></a>
 
-Els serveis d'expedició de volants del Padró Municipal d'Habitants desplegats a les Administracions Locals i Diputacions no disposen d'un entorn de proves i les consultes retornen dades de producció.
+A l'entorn de PRE, podreu consultar els següents documents:
+| TIPUS_LITERAL | TIPUS | DOCUMENT |
+| --- | --- | --- |
+| NIF | 1 | 12345678Z |
+| PASSAPORT | 2 | RE12345678 |
+| PERMIS_RESIDENCIA | 3 | E12345678 |
+| NIE | 4 | X1234567L |
+
+La resta de documents consultats retornaran un NO_CONSTA.
 
 > :warning:Cal tenir present que l'informació que es consulta és confidencial i l'usuari és responsable de la seva utilització únicament en el marc de l'activitat laboral i en la estricta forma que exigeixi el compliment de les seves funcions. Tant el CAOC com el MAP / INE emmagatzemem, per a les corresponents auditories, les dades de les persones que hi accedeixen i les consultes efectuades.
 
