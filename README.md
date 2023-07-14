@@ -45,7 +45,7 @@ Podreu trobar els XSD's del servei en aquest repositori sota el directori [/sche
    * [3.9. Dades del titular PDF (TITULAR\_PDF)](#3.9)
    * [3.10. Dades dels convivents PDF (CONVIVENTS\_PDF)](#3.10)
    * [3.11. Dades del titular IDESCAT (TITULAR\_IDESCAT)](#3.11)
-   * [3.12. Cerca del titular (CERCA\_TITULAR)](#3.12)
+   * [3.12. Cerca del titular (TITULAR\_CERCA)](#3.12)
 - [4. Joc de proves 13](#4)
 
 ## 1 Introducció <a name="1"></a>
@@ -79,7 +79,7 @@ Les dades disponibles a través del servei són les que es presenten a continuac
 | **PADRO** | [TITULAR\_IDESCAT](#3.11) | Dades del titular (consulta alternativa a l'IDESCAT).|
 | **PADRO** | [TITULAR\_PROPI](#3.6) | Dades del titular (consulta al padró de l'ens requeridor). Únicament disponible per a Administracions Locals.|
 | **PADRO** | [CONVIVENTS\_PROPI](#3.7) | Dades dels convivents (consulta al padró de l'ens requeridor). Únicament disponible per a Administracions Locals.|
-| **PADRO** | [CERCA\_TITULAR](#3.12) | Cerca del titular.|
+| **PADRO** | [TITULAR\_CERCA](#3.12) | Cerca del titular.|
 
 ## 3 Missatgeria dels serveis <a name="3"></a>
 
@@ -348,7 +348,7 @@ A continuació es detalla la missatgeria corresponent al bloc de dades específi
 
 Si no s'informa el codi de municipi i de província en la petició, la consulta de les dades del titular es realitza directament contra el servei d'IDESCAT.
 
-### 3.12 Cerca del titular (CERCA\_TITULAR) <a name="3.12"></a>
+### 3.12 Cerca del titular (TITULAR\_CERCA) <a name="3.12"></a>
 
 <p align="center">
 <img align="center" src="img/CERCA_TITULAR.png" />
