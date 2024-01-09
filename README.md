@@ -94,10 +94,10 @@ A continuació es detalla la missatgeria corresponent al bloc de dades específi
 | _Element_ | _Descripció_ |
 | --- | --- |
 | peticionResidente/numExpediente | Número d'expedient |
-| peticionResidente/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| peticionResidente/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | peticionResidente/documentacion | Documentació |
 | respuestaResidente/numExpediente | Número d'expedient |
-| respuestaResidente/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| respuestaResidente/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | respuestaResidente/documentacion | Documentació |
 | respuestaResidente/codigoResultado | 1: CONSTA, 2: NO CONSTA, 3: ERROR |
 
@@ -110,10 +110,10 @@ A continuació es detalla la missatgeria corresponent al bloc de dades específi
 | _Element_ | _Descripció_ |
 | --- | --- |
 | peticionMunicipioResidencia/numExpediente | Número d'expedient |
-| peticionMunicipioResidencia/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| peticionMunicipioResidencia/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | peticionMunicipioResidencia/documentacion | Documentació |
 | respuestaMunicipioResidencia/numExpediente | Número d'expedient |
-| respuestaMunicipioResidencia/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| respuestaMunicipioResidencia/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | respuestaMunicipioResidencia/documentacion | Documentació |
 | respuestaMunicipioResidencia/codigoResultado | 1: CONSTA, 2: NO CONSTA, 3: ERROR |
 | respuestaMunicipioResidencia/codigoMunicipio | Codi de municipi |
@@ -129,13 +129,13 @@ A continuació es detalla la missatgeria corresponent al bloc de dades específi
 | _Element_ | _Descripció_ |
 | --- | --- |
 | peticionResidenteMunicipio/numExpediente | Número d'expedient |
-| peticionResidenteMunicipio/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| peticionResidenteMunicipio/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | peticionResidenteMunicipio/documentacion | Documentació |
 | peticionResidenteMunicipio/codigoMunicipio | Codi de municipi |
 | peticionResidenteMunicipio/codigoProvincia | Codi de província |
 | peticionResidenteMunicipio/idescat | 1: _failover_ contra servei d'Idescat, 0: sense _failover_ |
 | respuestaResidenteMunicipio/numExpediente | Número d'expedient |
-| respuestaResidenteMunicipio/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| respuestaResidenteMunicipio/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | respuestaResidenteMunicipio/documentacion | Documentació |
 | respuestaResidenteMunicipio/codigoMunicipio | Codi de municipi |
 | respuestaResidenteMunicipio/codigoProvincia | Codi de província |
@@ -152,13 +152,13 @@ A continuació es detalla la missatgeria corresponent al bloc de dades específi
 | _Element_ | _Descripció_ |
 | --- | --- |
 | peticionNumeroConvivientes/numExpediente | Número d'expedient |
-| peticionNumeroConvivientes/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| peticionNumeroConvivientes/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | peticionNumeroConvivientes/documentacion | Documentació |
 | peticionNumeroConvivientes/codigoMunicipio | Codi de municipi |
 | peticionNumeroConvivientes/codigoProvincia | Codi de província |
 | peticionNumeroConvivientes/idescat | 1: _failover_ contra servei d'Idescat, 0: sense _failover_ |
 | respuestaNumeroConvivientes/numExpediente | Número d'expedient |
-| respuestaNumeroConvivientes/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| respuestaNumeroConvivientes/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | respuestaNumeroConvivientes/documentacion | Documentació |
 | respuestaNumeroConvivientes/codigoMunicipio | Codi de municipi |
 | respuestaNumeroConvivientes/codigoProvincia | Codi de província |
@@ -177,14 +177,14 @@ A continuació es detalla la missatgeria corresponent al bloc de dades específi
 | _Element_ | _Descripció_ |
 | --- | --- |
 | peticionComprobacionConvivientes/numExpediente | Número d'expedient |
-| peticionComprobacionConvivientes/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| peticionComprobacionConvivientes/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | peticionComprobacionConvivientes/documentacion | Documentació |
 | peticionComprobacionConvivientes/codigoMunicipio | Codi de municipi |
 | peticionComprobacionConvivientes/codigoProvincia | Codi de província |
 | peticionComprobacionConvivientes/numeroConvivientes | Número de convivents (incloent el titular) a validar |
 | peticionComprobacionConvivientes/idescat | 1: _failover_ contra servei d'Idescat, 0: sense _failover_ |
 | respuestaComprobacionConvivientes/numExpediente | Número d'expedient |
-| respuestaComprobacionConvivientes/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| respuestaComprobacionConvivientes/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | respuestaComprobacionConvivientes/documentacion | Documentació |
 | respuestaComprobacionConvivientes/codigoMunicipio | Codi de municipi |
 | respuestaComprobacionConvivientes/codigoProvincia | Codi de província |
@@ -206,13 +206,13 @@ A continuació es detalla la missatgeria corresponent al bloc de dades específi
 | _Element_ | _Descripció_ |
 | --- | --- |
 | peticionDatosTitular/numExpediente | Número d'expedient |
-| peticionDatosTitular/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| peticionDatosTitular/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | peticionDatosTitular/documentacion | Documentació |
 | peticionDatosTitular/codigoMunicipio | Codi de municipi. |
 | peticionDatosTitular/codigoProvincia | Codi de província |
 | peticionDatosTitular/idescat | 1: _failover_ contra servei d'Idescat, 0: sense _failover_ |
 | respuestaDatosTitular/numExpediente | Número d'expedient |
-| respuestaDatosTitular/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| respuestaDatosTitular/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | respuestaDatosTitular/documentacion | Documentació |
 | respuestaDatosTitular/codigoMunicipio | Codi de municipi |
 | respuestaDatosTitular/codigoProvincia | Codi de província |
@@ -232,13 +232,13 @@ A continuació es detalla la missatgeria corresponent al bloc de dades específi
 | _Element_ | _Descripció_ |
 | --- | --- |
 | peticionDatosConvivientes/numExpediente | Número d'expedient |
-| peticionDatosConvivientes/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| peticionDatosConvivientes/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | peticionDatosConvivientes/documentacion | Documentació |
 | peticionDatosConvivientes/codigoMunicipio | Codi de municipi |
 | peticionDatosConvivientes/codigoProvincia | Codi de província |
 | peticionDatosConvivientes/idescat | 1: _failover_ contra servei d'Idescat, 0: sense _failover_ |
 | respuestaDatosConvivientes/numExpediente | Número d'expedient |
-| respuestaDatosConvivientes/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| respuestaDatosConvivientes/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | respuestaDatosConvivientes/documentacion | Documentació |
 | respuestaDatosConvivientes/codigoMunicipio | Codi de municipi |
 | respuestaDatosConvivientes/codigoProvincia | Codi de província |
@@ -256,13 +256,13 @@ A continuació es detalla la missatgeria corresponent al bloc de dades específi
 | _Element_ | _Descripció_ |
 | --- | --- |
 | peticionValidacionConvivientes/numExpediente | Número d'expedient |
-| peticionValidacionConvivientes/conviviente/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| peticionValidacionConvivientes/conviviente/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | peticionValidacionConvivientes/conviviente/documentacion | Documentació |
 | peticionValidacionConvivientes/codigoMunicipio | Codi de municipi |
 | peticionValidacionConvivientes/codigoProvincia | Codi de província |
 | peticionValidacionConvivientes/idescat | 1: _failover_ contra servei d'Idescat, 0: sense _failover_ |
 | respuestaValidacionConvivientes/numExpediente | Número d'expedient |
-| respuestaValidacionConvivientes/conviviente/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| respuestaValidacionConvivientes/conviviente/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | respuestaValidacionConvivientes/conviviente/documentacion | Documentació |
 | respuestaValidacionConvivientes/conviviente/fechaAltaPadron | Data d'alta al padró, només en el cas del primer convivent emprat per fer la consulta |
 | respuestaValidacionConvivientes/conviviente/resultado | 0: NO consta com a convivent 1: consta com a convivent |
@@ -282,13 +282,13 @@ A continuació es detalla la missatgeria corresponent al bloc de dades específi
 | _Element_ | _Descripció_ |
 | --- | --- |
 | peticionDatosTitularPDF/numExpediente | Número d'expedient |
-| peticionDatosTitularPDF/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| peticionDatosTitularPDF/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | peticionDatosTitularPDF/documentacion | Documentació |
 | peticionDatosTitularPDF/codigoMunicipio | Codi de municipi |
 | peticionDatosTitularPDF/codigoProvincia | Codi de província |
 | peticionDatosTitularPDF/idescat | 1: _failover_ contra servei d'Idescat, 0: sense _failover_ |
 | respuestaDatosTitularPDF/numExpediente | Número d'expedient |
-| respuestaDatosTitularPDF/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| respuestaDatosTitularPDF/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | respuestaDatosTitularPDF/documentacion | Documentació |
 | respuestaDatosTitularPDF/codigoMunicipio | Codi de municipi |
 | respuestaDatosTitularPDF/codigoProvincia | Codi de província |
@@ -307,13 +307,13 @@ A continuació es detalla la missatgeria corresponent al bloc de dades específi
 | _Element_ | _Descripció_ |
 | --- | --- |
 | peticionDatosConvivientesPDF/numExpediente | Número d'expedient |
-| peticionDatosConvivientesPDF/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| peticionDatosConvivientesPDF/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | peticionDatosConvivientesPDF/documentacion | Documentació |
 | peticionDatosConvivientesPDF/codigoMunicipio | Codi de municipi |
 | peticionDatosConvivientesPDF/codigoProvincia | Codi de província |
 | peticionDatosConvivientesPDF/idescat | 1: _failover_ contra servei d'Idescat, 0: sense _failover_ |
 | respuestaDatosConvivientesPDF/numExpediente | Número d'expedient |
-| respuestaDatosConvivientesPDF/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| respuestaDatosConvivientesPDF/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | respuestaDatosConvivientesPDF/documentacion | Documentació |
 | respuestaDatosConvivientesPDF/codigoMunicipio | Codi de municipi |
 | respuestaDatosConvivientesPDF/codigoProvincia | Codi de província |
@@ -332,12 +332,12 @@ A continuació es detalla la missatgeria corresponent al bloc de dades específi
 | _Element_ | _Descripció_ |
 | --- | --- |
 | peticionDatosTitularIDESCAT/numExpediente | Número d'expedient |
-| peticionDatosTitularIDESCAT/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| peticionDatosTitularIDESCAT/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | peticionDatosTitularIDESCAT/documentacion | Documentació del titular |
 | peticionDatosTitularIDESCAT/codigoMunicipio | Codi de municipi |
 | peticionDatosTitularIDESCAT/codigoProvincia | Codi de província |
 | respuestaDatosTitularIDESCAT/numExpediente | Número d'expedient |
-| respuestaDatosTitularIDESCAT/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| respuestaDatosTitularIDESCAT/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | respuestaDatosTitularIDESCAT/documentacion | Documentació del titular |
 | respuestaDatosTitularIDESCAT/codigoMunicipio | Codi de municipi (opcional) |
 | respuestaDatosTitularIDESCAT/codigoProvincia | Codi de província (opcional) |
@@ -357,10 +357,10 @@ Si no s'informa el codi de municipi i de província en la petició, la consulta 
 | _Element_ | _Descripció_ |
 | --- | --- |
 | peticionBusquedaTitular/numExpediente | Número d'expedient |
-| peticionBusquedaTitular/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| peticionBusquedaTitular/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | peticionBusquedaTitular/documentacion | Documentació |
 | respuestaBusquedaTitular/numExpediente | Número d'expedient |
-| respuestaBusquedaTitular/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència, 4: NIE |
+| respuestaBusquedaTitular/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
 | respuestaBusquedaTitular/documentacion | Documentació |
 | respuestaBusquedaTitular/codigoMunicipioIdescat | Codi de municipi indicat pel servei Idescat |
 | respuestaBusquedaTitular/codigoProvinciaIdescat | Codi de província indicat pel servei Idescat |
@@ -380,8 +380,7 @@ A l'entorn de PRE, podreu consultar els següents documents:
 | --- | --- | --- |
 | NIF | 1 | 12345678Z |
 | PASSAPORT | 2 | RE12345678 |
-| PERMIS_RESIDENCIA | 3 | E12345678 |
-| NIE | 4 | X1234567L |
+| PERMIS_RESIDENCIA/NIE | 3 | E12345678 |
 
 La resta de documents consultats retornaran un NO_CONSTA.
 
