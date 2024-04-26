@@ -378,9 +378,9 @@ Si no s'informa el codi de municipi i de província en la petició, la consulta 
 A l'entorn de PRE, podreu consultar els següents documents:
 | TIPUS_LITERAL | TIPUS | DOCUMENT |
 | --- | --- | --- |
-| NIF | 1 | 87654321A |
-| PASSAPORT | 2 | RE12345678 |
-| PERMIS_RESIDENCIA/NIE | 3 | E12345678 |
+| NIF | 1 | 12345678A |
+| PASSAPORT | 2 | RA12345678 |
+| PERMIS_RESIDENCIA/NIE | 3 | Z2757735Z |
 
 La resta de documents consultats retornaran un NO_CONSTA.
 
