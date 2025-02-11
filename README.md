@@ -378,7 +378,7 @@ Si no s'informa el codi de municipi i de província en la petició, la consulta 
 A l'entorn de PRE, podreu consultar els següents documents:
 | TIPUS_LITERAL | TIPUS | DOCUMENT | CODI_MUNICIPI | CODI_PROVINCIA |
 | --- | --- | --- | --- | --- |
-| NIF | 1 | 12345678A | 023 | 17 |
+| NIF | 1 | 12344321Z | 023 | 17 |
 | PASSAPORT | 2 | RA12345678 | 023 | 17 |
 | PERMIS_RESIDENCIA/NIE | 3 | Z2757735Z | 023 | 17 |
 
