@@ -42,10 +42,8 @@ Podreu trobar els XSD's del servei en aquest repositori sota el directori [/sche
    * [3.6. Dades del titular (TITULAR i TITULAR\_PROPI)](#3.6)
    * [3.7. Dades dels convivents (CONVIVENTS i CONVIVENTS\_PROPI)](#3.7)
    * [3.8. Validació dels convivents (VALIDACIO\_CONVIVENTS)](#3.8)
-   * [3.9. Dades del titular PDF (TITULAR\_PDF)](#3.9)
-   * [3.10. Dades dels convivents PDF (CONVIVENTS\_PDF)](#3.10)
-   * [3.11. Dades del titular IDESCAT (TITULAR\_IDESCAT)](#3.11)
-   * [3.12. Cerca del titular (TITULAR\_CERCA)](#3.12)
+   * [3.9. Dades del titular IDESCAT (TITULAR\_IDESCAT)](#3.9)
+   * [3.10. Cerca del titular (TITULAR\_CERCA)](#3.10)
 - [4. Joc de proves 13](#4)
 
 ## 1 Introducció <a name="1"></a>
@@ -74,12 +72,10 @@ Les dades disponibles a través del servei són les que es presenten a continuac
 | **PADRO** | [TITULAR](#3.6) | Dades del titular.|
 | **PADRO** | [CONVIVENTS](#3.7) | Dades dels convivents.|
 | **PADRO** | [VALIDACIO\_CONVIVENTS](#3.8) | Validació dels convivents.|
-| **PADRO** | [TITULAR\_PDF](#3.9) | Dades del titular (PDF).|
-| **PADRO** | [CONVIVENTS\_PDF](#3.10) | Dades dels convivents (PDF).|
-| **PADRO** | [TITULAR\_IDESCAT](#3.11) | Dades del titular (consulta alternativa a l'IDESCAT).|
+| **PADRO** | [TITULAR\_IDESCAT](#3.9) | Dades del titular (consulta alternativa a l'IDESCAT).|
 | **PADRO** | [TITULAR\_PROPI](#3.6) | Dades del titular (consulta al padró de l'ens requeridor). Únicament disponible per a Administracions Locals.|
 | **PADRO** | [CONVIVENTS\_PROPI](#3.7) | Dades dels convivents (consulta al padró de l'ens requeridor). Únicament disponible per a Administracions Locals.|
-| **PADRO** | [TITULAR\_CERCA](#3.12) | Cerca del titular.|
+| **PADRO** | [TITULAR\_CERCA](#3.10) | Cerca del titular.|
 
 ## 3 Missatgeria dels serveis <a name="3"></a>
 
@@ -273,57 +269,7 @@ A continuació es detalla la missatgeria corresponent al bloc de dades específi
 | respuestaValidacionConvivientes/fuente | PADRON o IDESCAT |
 | respuestaValidacionConvivientes/idescatMotivo | 1: municipi no adherit, 2: servei del municipi no disponible en el moment de la consulta |
 
-### 3.9 Dades del titular PDF (TITULAR\_PDF) <a name="3.9"></a>
-
-<p align="center">
-<img align="center" src="img/TITULAR_PDF.png" />
-</p>  
-
-| _Element_ | _Descripció_ |
-| --- | --- |
-| peticionDatosTitularPDF/numExpediente | Número d'expedient |
-| peticionDatosTitularPDF/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
-| peticionDatosTitularPDF/documentacion | Documentació |
-| peticionDatosTitularPDF/codigoMunicipio | Codi de municipi |
-| peticionDatosTitularPDF/codigoProvincia | Codi de província |
-| peticionDatosTitularPDF/idescat | 1: _failover_ contra servei d'Idescat, 0: sense _failover_ |
-| respuestaDatosTitularPDF/numExpediente | Número d'expedient |
-| respuestaDatosTitularPDF/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
-| respuestaDatosTitularPDF/documentacion | Documentació |
-| respuestaDatosTitularPDF/codigoMunicipio | Codi de municipi |
-| respuestaDatosTitularPDF/codigoProvincia | Codi de província |
-| respuestaDatosTitularPDF/codigoResultado | 1: CONSTA, 2: NO CONSTA, 3: ERROR, 4: MUNICIPI NO ADHERIT |
-| respuestaDatosTitularPDF/volante | Volant de padró signat en format PDF |
-| respuestaDatosTitularPDF/VolanteEmpadronamiento | Bloc de dades corresponent al volant de padró |
-| respuestaDatosTitularPDF/fuente | PADRON o IDESCAT |
-| respuestaDatosTitularPDF/idescatMotivo | 1: municipi no adherit, 2: servei del municipi no disponible en el moment de la consulta |
-
-### 3.10 Dades dels convivents PDF (CONVIVENTS\_PDF) <a name="3.10"></a>
-
-<p align="center">
-<img align="center" src="img/CONVIVENTS_PDF.png" />
-</p>  
-
-| _Element_ | _Descripció_ |
-| --- | --- |
-| peticionDatosConvivientesPDF/numExpediente | Número d'expedient |
-| peticionDatosConvivientesPDF/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
-| peticionDatosConvivientesPDF/documentacion | Documentació |
-| peticionDatosConvivientesPDF/codigoMunicipio | Codi de municipi |
-| peticionDatosConvivientesPDF/codigoProvincia | Codi de província |
-| peticionDatosConvivientesPDF/idescat | 1: _failover_ contra servei d'Idescat, 0: sense _failover_ |
-| respuestaDatosConvivientesPDF/numExpediente | Número d'expedient |
-| respuestaDatosConvivientesPDF/tipoDocumentacion | 1: NIF, 2: passaport, 3: permís residència/NIE |
-| respuestaDatosConvivientesPDF/documentacion | Documentació |
-| respuestaDatosConvivientesPDF/codigoMunicipio | Codi de municipi |
-| respuestaDatosConvivientesPDF/codigoProvincia | Codi de província |
-| respuestaDatosConvivientesPDF/codigoResultado | 1: CONSTA, 2: NO CONSTA, 3: ERROR, 4: MUNICIPI NO ADHERIT |
-| respuestaDatosConvivientesPDF/volante | Volant de convivència signat en format PDF |
-| respuestaDatosConvivientesPDF/VolanteEmpadronamiento | Bloc de dades corresponent al volant de convivència |
-| respuestaDatosConvivientesPDF/fuente | PADRON o IDESCAT |
-| respuestaDatosConvivientes/idescatMotivo | 1: municipi no adherit, 2: servei del municipi no disponible en el moment de la consulta |
-
-### 3.11 Dades del titular IDESCAT (TITULAR\_IDESCAT) <a name="3.11"></a>
+### 3.9 Dades del titular IDESCAT (TITULAR\_IDESCAT) <a name="3.9"></a>
 
 <p align="center">
 <img align="center" src="img/TITULAR_IDESCAT.png" />
@@ -348,7 +294,7 @@ A continuació es detalla la missatgeria corresponent al bloc de dades específi
 
 Si no s'informa el codi de municipi i de província en la petició, la consulta de les dades del titular es realitza directament contra el servei d'IDESCAT.
 
-### 3.12 Cerca del titular (TITULAR\_CERCA) <a name="3.12"></a>
+### 3.10 Cerca del titular (TITULAR\_CERCA) <a name="3.10"></a>
 
 <p align="center">
 <img align="center" src="img/CERCA_TITULAR.png" />
